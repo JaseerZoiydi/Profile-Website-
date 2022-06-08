@@ -168,7 +168,7 @@ footer i:hover{
     border: 1px solid #fff;
     min-height: 14em;
     width: 23em;
-    margin: 40px 20px;
+    margin: 0px 20px;
     overflow: hidden;
     border-radius: 10px;
     transition: 0.7s ease;
@@ -277,8 +277,12 @@ fa-facebook:hover{
      .quote{
          font-size:0.5em
      }
+    .project-card{
+         margin :20px 0;
+     }
  }
  @media (max-width:641px) {
+     
      body{
          font-size: 12px;
      }
@@ -288,6 +292,10 @@ fa-facebook:hover{
      .main-content h3{
          font-size: 1.4em;
      }
+     .project-card{
+         margin :20px 0;
+     }
+
       footer{
          flex-flow: column wrap;
      }
@@ -305,4 +313,8 @@ fa-facebook:hover{
       footer{
          flex-flow: column wrap;
      }
+    .project-card{
+         margin :20px 0;
+     }
+
  }
