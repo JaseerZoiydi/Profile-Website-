@@ -274,9 +274,6 @@ fa-facebook:hover{
      footer{
          flex-flow: column wrap;
      }
-     .quote{
-         font-size:0.5em
-     }
     .project-card{
          margin :20px 0;
      }
@@ -299,16 +296,11 @@ fa-facebook:hover{
       footer{
          flex-flow: column wrap;
      }
-     .quote{
-         font-size:0.5em
-     }
+         
  }
  @media (max-width:300px){
      body{
          font-size: 10px;
-     }
-     .quote{
-         font-size:0.5em
      }
       footer{
          flex-flow: column wrap;
