@@ -271,6 +271,9 @@ fa-facebook:hover{
          flex-direction: column;
          align-items: center;
      }
+     footer{
+         flex-flow: column wrap;
+     }
  }
  @media (max-width:641px) {
      body{
@@ -282,9 +285,15 @@ fa-facebook:hover{
      .main-content h3{
          font-size: 1.4em;
      }
+      footer{
+         flex-flow: column wrap;
+     }
  }
  @media (max-width:300px){
      body{
          font-size: 10px;
+     }
+      footer{
+         flex-flow: column wrap;
      }
  }
